@@ -1,10 +1,10 @@
 {
   "name": "chubbyjs-laminas-config",
   "version": "1.0.0",
-  "description": "Chubbyphp container adapter using laminas service manager configuration.",
+  "description": "Chubbyjs container adapter using laminas service manager configuration.",
   "keywords": [
-    "chubbyphp-container",
-    "chubbyphp",
+    "chubbyjs-container",
+    "chubbyjs",
     "laminas",
     "psr-11"
   ],
