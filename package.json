@@ -1,5 +1,5 @@
 {
-  "name": "chubbyjs-laminas-config",
+  "name": "@chubbyjs/chubbyjs-laminas-config",
   "version": "1.0.0",
   "description": "Chubbyjs container adapter using laminas service manager configuration.",
   "keywords": [
@@ -44,7 +44,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "chubbyjs-container": "^1.1.0"
+    "@chubbyjs/chubbyjs-container": "^1.0.0"
   },
   "devDependencies": {
     "@stryker-mutator/core": "^4.1.0",

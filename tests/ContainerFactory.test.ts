@@ -1,8 +1,8 @@
 import { Mock, It } from 'moq.ts';
 import ConfigInterface from '../src/ConfigInterface';
 import ContainerFactory from '../src/ContainerFactory';
-import ContainerInterface from 'chubbyjs-container/dist/ContainerInterface';
-import MinimalContainer from 'chubbyjs-container/dist/MinimalContainer';
+import ContainerInterface from '@chubbyjs/chubbyjs-container/dist/ContainerInterface';
+import MinimalContainer from '@chubbyjs/chubbyjs-container/dist/MinimalContainer';
 
 test('container factory without existing container', () => {
     const config = new Mock<ConfigInterface>()

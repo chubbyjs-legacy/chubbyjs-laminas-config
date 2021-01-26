@@ -7,7 +7,7 @@ import Invokable1 from './TestAsset/Invokable1';
 import Invokable2 from './TestAsset/Invokable2';
 import LaminasDelegatorInterface from '../src/LaminasDelegatorInterface';
 import LaminasFactoryInterface from '../src/LaminasFactoryInterface';
-import MinimalContainer from 'chubbyjs-container/dist/MinimalContainer';
+import MinimalContainer from '@chubbyjs/chubbyjs-container/dist/MinimalContainer';
 import Delegator3 from './TestAsset/Delegator3';
 
 test('test none', () => {

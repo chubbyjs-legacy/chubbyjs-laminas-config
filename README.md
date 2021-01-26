@@ -23,14 +23,14 @@ A PSR-11 container implementation.
 ## Requirements
 
  * node: 10
- * [chubbyjs-container][2]: ^1.1.0
+ * [@chubbyjs/chubbyjs-container][2]: ^1.0.0
 
 ## Installation
 
-Through [NPM](https://www.npmjs.com) as [chubbyjs-laminas-config][1].
+Through [NPM](https://www.npmjs.com) as [@chubbyjs/chubbyjs-laminas-config][1].
 
 ```sh
-npm i chubbyjs-laminas-config@1.0
+npm i @chubbyjs/chubbyjs-laminas-config@1.0
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ import Config from 'chubbyjs-laminas-config/dist/Config';
 import ContainerFactory from 'chubbyjs-laminas-config/dist/ContainerFactory';
 import LaminasDelegatorInterface from 'chubbyjs-laminas-config/dist/LaminasDelegatorInterface';
 import LaminasFactoryInterface from 'chubbyjs-laminas-config/dist/LaminasFactoryInterface';
-import PsrContainerInterface from 'psr-container/dist/ContainerInterface';
+import PsrContainerInterface from '@chubbyjs/psr-container/dist/ContainerInterface';
 
 const container: PsrContainerInterface = ContainerFactory(new Config({
     dependencies: {
@@ -57,6 +57,6 @@ const container: PsrContainerInterface = ContainerFactory(new Config({
 
 Dominik Zogg 2020
 
-[1]: https://www.npmjs.com/package/chubbyjs-laminas-config
+[1]: https://www.npmjs.com/package/@chubbyjs/chubbyjs-laminas-config
 
-[2]: https://www.npmjs.com/package/chubbyjs-container
+[2]: https://www.npmjs.com/package/@chubbyjs/chubbyjs-container

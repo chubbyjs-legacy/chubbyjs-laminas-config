@@ -1,6 +1,6 @@
 import ConfigInterface from './ConfigInterface';
-import ContainerInterface from 'chubbyjs-container/dist/ContainerInterface';
-import MinimalContainer from 'chubbyjs-container/dist/MinimalContainer';
+import ContainerInterface from '@chubbyjs/chubbyjs-container/dist/ContainerInterface';
+import MinimalContainer from '@chubbyjs/chubbyjs-container/dist/MinimalContainer';
 
 const ContainerFactory = (config: ConfigInterface, container?: ContainerInterface): ContainerInterface => {
     container = container || new MinimalContainer();

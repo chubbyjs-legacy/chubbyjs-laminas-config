@@ -1,10 +1,10 @@
 import ConfigInterface from './ConfigInterface';
-import ContainerInterface from 'chubbyjs-container/dist/ContainerInterface';
-import FactoryInterface from 'chubbyjs-container/dist/FactoryInterface';
+import ContainerInterface from '@chubbyjs/chubbyjs-container/dist/ContainerInterface';
+import FactoryInterface from '@chubbyjs/chubbyjs-container/dist/FactoryInterface';
 import LaminasDelegatorInterface from './LaminasDelegatorInterface';
 import LaminasFactoryInterface from './LaminasFactoryInterface';
-import Parameter from 'chubbyjs-container/dist/Parameter';
-import PsrContainerInterface from 'psr-container/dist/ContainerInterface';
+import Parameter from '@chubbyjs/chubbyjs-container/dist/Parameter';
+import PsrContainerInterface from '@chubbyjs/psr-container/dist/ContainerInterface';
 
 type config = {
     dependencies?: {
