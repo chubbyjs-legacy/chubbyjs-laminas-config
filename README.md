@@ -36,10 +36,10 @@ npm i @chubbyjs/chubbyjs-laminas-config@1.0
 ## Usage
 
 ```ts
-import Config from 'chubbyjs-laminas-config/dist/Config';
-import ContainerFactory from 'chubbyjs-laminas-config/dist/ContainerFactory';
-import LaminasDelegatorInterface from 'chubbyjs-laminas-config/dist/LaminasDelegatorInterface';
-import LaminasFactoryInterface from 'chubbyjs-laminas-config/dist/LaminasFactoryInterface';
+import Config from '@chubbyjs/chubbyjs-laminas-config/dist/Config';
+import ContainerFactory from '@chubbyjs/chubbyjs-laminas-config/dist/ContainerFactory';
+import LaminasDelegatorInterface from '@chubbyjs/chubbyjs-laminas-config/dist/LaminasDelegatorInterface';
+import LaminasFactoryInterface from '@chubbyjs/chubbyjs-laminas-config/dist/LaminasFactoryInterface';
 import PsrContainerInterface from '@chubbyjs/psr-container/dist/ContainerInterface';
 
 const container: PsrContainerInterface = ContainerFactory(new Config({
