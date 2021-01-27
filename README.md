@@ -18,7 +18,7 @@
 
 ## Description
 
-A PSR-11 container implementation.
+Chubbyjs container adapter using laminas service manager configuration.
 
 ## Requirements
 
