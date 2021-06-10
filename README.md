@@ -1,7 +1,6 @@
 # chubbyjs-laminas-config
 
 [![CI](https://github.com/chubbyjs/chubbyjs-laminas-config/workflows/CI/badge.svg?branch=master)](https://github.com/chubbyjs/chubbyjs-laminas-config/actions?query=workflow%3ACI)
-[![Build Status](https://api.travis-ci.org/chubbyjs/chubbyjs-laminas-config.png?branch=master)](https://travis-ci.org/chubbyjs/chubbyjs-laminas-config)
 [![Coverage Status](https://coveralls.io/repos/github/chubbyjs/chubbyjs-laminas-config/badge.svg?branch=master)](https://coveralls.io/github/chubbyjs/chubbyjs-laminas-config?branch=master)
 [![Infection MSI](https://badge.stryker-mutator.io/github.com/chubbyjs/chubbyjs-laminas-config/master)](https://dashboard.stryker-mutator.io/reports/github.com/chubbyjs/chubbyjs-laminas-config/master)
 
