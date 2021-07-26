@@ -1,14 +1,15 @@
+import MinimalContainer from '@chubbyjs/chubbyjs-container/dist/MinimalContainer';
+import { expect, test } from '@jest/globals';
 import Config from '../src/Config';
+import LaminasDelegatorInterface from '../src/LaminasDelegatorInterface';
+import LaminasFactoryInterface from '../src/LaminasFactoryInterface';
 import Delegator1 from './TestAsset/Delegator1';
 import Delegator2 from './TestAsset/Delegator2';
+import Delegator3 from './TestAsset/Delegator3';
 import Factory1 from './TestAsset/Factory1';
 import Factory2 from './TestAsset/Factory2';
 import Invokable1 from './TestAsset/Invokable1';
 import Invokable2 from './TestAsset/Invokable2';
-import LaminasDelegatorInterface from '../src/LaminasDelegatorInterface';
-import LaminasFactoryInterface from '../src/LaminasFactoryInterface';
-import MinimalContainer from '@chubbyjs/chubbyjs-container/dist/MinimalContainer';
-import Delegator3 from './TestAsset/Delegator3';
 
 test('test none', () => {
     const container = new MinimalContainer();

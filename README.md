@@ -22,15 +22,15 @@ Chubbyjs container adapter using laminas service manager configuration.
 
 ## Requirements
 
- * node: 10
- * [@chubbyjs/chubbyjs-container][2]: ^1.0.0
+ * node: 12
+ * [@chubbyjs/chubbyjs-container][2]: ^1.0.7
 
 ## Installation
 
 Through [NPM](https://www.npmjs.com) as [@chubbyjs/chubbyjs-laminas-config][1].
 
 ```sh
-npm i @chubbyjs/chubbyjs-laminas-config@1.0
+npm i @chubbyjs/chubbyjs-laminas-config@1.0.2
 ```
 
 ## Usage
