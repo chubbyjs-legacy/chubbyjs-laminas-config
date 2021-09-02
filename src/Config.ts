@@ -53,23 +53,17 @@ class Config implements ConfigInterface {
 
     private addFactories(container: ContainerInterface, factories: Map<string, LaminasFactoryInterface>): void {
         factories.forEach((factory: LaminasFactoryInterface, name: string) => {
-            container.factory(
-                name,
-                (psrContainer: PsrContainerInterface): FactoryInterface => {
-                    return factory(psrContainer, name);
-                },
-            );
+            container.factory(name, (psrContainer: PsrContainerInterface): FactoryInterface => {
+                return factory(psrContainer, name);
+            });
         });
     }
 
     private addAliases(container: ContainerInterface, aliases: Map<string, string>): void {
         aliases.forEach((target: string, name: string) => {
-            container.factory(
-                name,
-                (psrContainer: PsrContainerInterface): FactoryInterface => {
-                    return psrContainer.get(target);
-                },
-            );
+            container.factory(name, (psrContainer: PsrContainerInterface): FactoryInterface => {
+                return psrContainer.get(target);
+            });
         });
     }
 
