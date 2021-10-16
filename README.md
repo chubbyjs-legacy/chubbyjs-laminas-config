@@ -3,6 +3,7 @@
 [![CI](https://github.com/chubbyjs/chubbyjs-laminas-config/workflows/CI/badge.svg?branch=master)](https://github.com/chubbyjs/chubbyjs-laminas-config/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/chubbyjs/chubbyjs-laminas-config/badge.svg?branch=master)](https://coveralls.io/github/chubbyjs/chubbyjs-laminas-config?branch=master)
 [![Infection MSI](https://badge.stryker-mutator.io/github.com/chubbyjs/chubbyjs-laminas-config/master)](https://dashboard.stryker-mutator.io/reports/github.com/chubbyjs/chubbyjs-laminas-config/master)
+[![npm-version](https://img.shields.io/npm/v/@chubbyjs/chubbyjs-laminas-config.svg)](https://www.npmjs.com/package/@chubbyjs/chubbyjs-laminas-config)
 
 [![bugs](https://sonarcloud.io/api/project_badges/measure?project=chubbyjs_chubbyjs-laminas-config&metric=bugs)](https://sonarcloud.io/dashboard?id=chubbyjs_chubbyjs-laminas-config)
 [![code_smells](https://sonarcloud.io/api/project_badges/measure?project=chubbyjs_chubbyjs-laminas-config&metric=code_smells)](https://sonarcloud.io/dashboard?id=chubbyjs_chubbyjs-laminas-config)
@@ -30,7 +31,7 @@ Chubbyjs container adapter using laminas service manager configuration.
 Through [NPM](https://www.npmjs.com) as [@chubbyjs/chubbyjs-laminas-config][1].
 
 ```sh
-npm i @chubbyjs/chubbyjs-laminas-config@1.0.2
+npm i @chubbyjs/chubbyjs-laminas-config@1.0.3
 ```
 
 ## Usage
